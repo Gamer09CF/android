@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="full_akita_row_wifi-user-9-PPR1.180610.011-TB-8505F_U-release-keys" />
+
+    <remote name="device"
+            fetch="https://github.com"
+            revision="full_akita_row_wifi-user-9-PPR1.180610.011-TB-8505F_U-release-keys"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="master"/>
+
+    <!--Device Trees-->
+    <project path="device/lenovo/akita_row_wifi" name="AndroidBlobs/device_lenovo_akita_row_wifi" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/lenovo/akita_row_wifi" name="CoderCharmander/tb8505f-kernel" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/lenovo/akita_row_wifi" name="AndroidBlobs/vendor_lenovo_akita_row_wifi" remote="vendor" />
+</manifest>
